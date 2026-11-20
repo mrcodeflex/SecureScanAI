@@ -1,0 +1,34 @@
+# secrets and local data
+.env
+data/
+*.db
+*.sqlite3
+*.jks
+*.keystore
+key.properties
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node (UI smoke test)
+node_modules/
+
+# Flutter / Android (generated in CI by scripts/prepare_android.py)
+mobile/android/
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins*
+mobile/.packages
+mobile/pubspec.lock.bak
+mobile/*.iml
+local.properties
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
