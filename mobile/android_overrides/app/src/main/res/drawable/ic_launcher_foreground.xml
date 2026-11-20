@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- shield -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M54,27 L74,34.2 L74,48.4 C74,60.6 66,69.8 54,75 C42,69.8 34,60.6 34,48.4 L34,34.2 Z" />
+    <!-- radar ring -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M44.5,52 a9.5,9.5 0 1,0 19,0 a9.5,9.5 0 1,0 -19,0" />
+    <!-- sweep needle -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,52 L61,45" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51.7,52 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0" />
+</vector>

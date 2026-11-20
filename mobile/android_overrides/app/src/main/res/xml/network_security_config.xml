@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Only the system certificate store is trusted (no user-installed CAs), and certificates are always validated.
+     Cleartext is permitted at OS level for LAN testing; the app restricts http:// to private addresses. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
