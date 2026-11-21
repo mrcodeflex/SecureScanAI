@@ -1,7 +1,0 @@
-{
-  "name": "securescan-ui-smoke",
-  "private": true,
-  "description": "Headless DOM smoke test for the SecureScan AI web interface (jsdom).",
-  "scripts": { "test": "python run_ui_smoke.py" },
-  "devDependencies": { "jsdom": "^26.0.0" }
-}
