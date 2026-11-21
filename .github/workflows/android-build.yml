@@ -47,11 +47,11 @@ jobs:
           echo "dir=$dir" >> "$GITHUB_OUTPUT"
           echo "Flutter project directory: $dir"
 
-      - name: Set up Java 17
+      - name: Set up Java 21
         uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6.3.0
         with:
           distribution: temurin
-          java-version: "17"
+          java-version: "21"
 
       - name: Set up Flutter (stable)
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
