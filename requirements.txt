@@ -1,8 +1,0 @@
-# SecureScan AI backend - pinned to the versions this project was tested with.
-fastapi==0.165.0
-uvicorn[standard]==0.54.0
-SQLAlchemy==2.1.9
-pydantic==2.14.3
-argon2-cffi==25.1.0
-python-multipart==0.0.34
-reportlab==5.1.0
